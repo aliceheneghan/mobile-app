@@ -1,15 +1,15 @@
 header {
     display: flex;
-    flex-direction: column;
     border: 2px red solid;
-    height: 5vh;
+    height: 12vh;
 }
 .logo img {
     width: 8vw;
     height: 10vh;
+    border: 2px blue solid;
 }
 header nav {
-    flex-grow: 1;
+    
 }
 header nav ul {
     display: flex;
