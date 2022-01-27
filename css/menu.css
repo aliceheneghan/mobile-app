@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    flex-direction: column;
+    border: 2px red solid;
+    height: 5vh;
+}
+.logo img {
+    width: 8vw;
+    height: 10vh;
+}
+header nav {
+    flex-grow: 1;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul li {
+    display: inline;    
+}
+ul {
+    align-items: center;
+    border: 2px greenyellow solid;
+}
